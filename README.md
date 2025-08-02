@@ -31,5 +31,4 @@ Proyek ini dilisensikan di bawah **MIT License**.
 ## Kontak
 
 * **Nama:** Dimas Mohammad Makdus (GitHub, LinkedIn, Twitter)
-
 * **Email:** dimasmakdus@gmail.com
