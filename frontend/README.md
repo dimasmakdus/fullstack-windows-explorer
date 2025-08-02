@@ -26,6 +26,7 @@ curl -fsSL https://bun.sh/install | bash
 
 ```sh
 git clone https://github.com/dimasmakdus/fullstack-windows-explorer.git
+cd fullstack-windows-explorer
 cd frontend
 ```
 
@@ -80,5 +81,4 @@ Proyek ini dilisensikan di bawah **MIT License**.
 ## Kontak
 
 * **Nama:** Dimas Mohammad Makdus (GitHub, LinkedIn, Twitter)
-
 * **Email:** dimasmakdus@gmail.com
