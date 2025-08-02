@@ -37,6 +37,22 @@ Bun bertindak sebagai package manager yang cepat. Cukup jalankan:
 bun install
 ```
 
+3.  **Konfigurasi environment:**
+Salin file `.env.example` ke `.env` dan isi konfigurasi API Anda.
+
+```sh
+cp .env.example .env
+```
+
+Isi variabel berikut di file `.env`:
+
+```sh
+VITE_API_BASE_URL=http://localhost:3000/api/v1 # API Configuration
+VITE_APP_TITLE=Folder Explorer
+VITE_APP_VERSION=1.0.0
+VITE_ENABLE_DEVTOOLS=true
+```
+
 ## Penggunaan
 
 ### Mode Pengembangan (Development)
