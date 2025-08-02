@@ -10,6 +10,8 @@ Proyek ini menyediakan serangkaian endpoint yang memungkinkan klien untuk berint
 
 * **Navigasi**: Mendapatkan daftar isi dari sebuah direktori (file dan sub-direktori).
 
+* **Pencarian**: Mendukung pencarian file dan direktori berdasarkan nama.
+
 ## ⚙️ Prasyarat
 
 Pastikan Anda telah menginstal **Bun** pada sistem Anda. Jika belum, Anda bisa menginstalnya dengan perintah berikut:
