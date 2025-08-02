@@ -1,6 +1,6 @@
 # Fullstack Windows Explorer
 
-Proyek ini adalah aplikasi full-stack Windows Explorer yang terdiri dari backend API RESTful dan frontend SPA (*Single Page Application*). Backend dibangun menggunakan **ElysiaJS** dan **Bun**, sedangkan frontend menggunakan **Vue 3** dan **TypeScript**. Aplikasi ini memungkinkan pengguna untuk menelusuri, mengelola, dan berinteraksi dengan struktur berkas dan folder layaknya pada sistem operasi desktop, seperti Windows Explorer. Tujuannya adalah untuk menyediakan antarmuka pengguna yang intuitif dan responsif untuk manajemen berkas.
+Proyek ini adalah aplikasi full-stack Windows Explorer yang terdiri dari backend API RESTful dan frontend SPA (*Single Page Application*). Backend dibangun menggunakan **ElysiaJS** dan **Bun**, sedangkan frontend menggunakan **Vue 3**, **TypeScript**, dan **Bun**. Aplikasi ini memungkinkan pengguna untuk menelusuri, mengelola, dan berinteraksi dengan struktur berkas dan folder layaknya pada sistem operasi desktop, seperti Windows Explorer. Tujuannya adalah untuk menyediakan antarmuka pengguna yang intuitif dan responsif untuk manajemen berkas.
 
 ## 🚀 Fitur Utama
 
