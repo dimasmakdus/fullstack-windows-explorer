@@ -1,0 +1,51 @@
+:root {
+  /* Colors */
+  --explorer-bg: #f0f0f0;
+  --panel-bg: #ffffff;
+  --border-color: #dcdcdc;
+  --header-bg: #e0e0e0;
+  --button-bg: #f9f9f9;
+  --hover-bg: #e5f1fb;
+  --select-bg: #cce8ff;
+  --text-color: #333333;
+  --header-text-color: #003366;
+  --accent-color: #0078d7;
+  --error-color: #d32f2f;
+  --success-color: #388e3c;
+  --warning-color: #f57c00;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  /* Border radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  
+  /* Typography */
+  --font-family: 'Segoe UI', Arial, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.85rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  
+  /* Z-index */
+  --z-modal: 1000;
+  --z-dropdown: 100;
+  --z-header: 10;
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}

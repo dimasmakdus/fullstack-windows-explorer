@@ -1,0 +1,31 @@
+.left-panel {
+  flex: 0 0 250px;
+  min-width: 200px;
+  max-width: 350px;
+  border-right: 1px solid #cccccc;
+  padding: 10px;
+  background-color: var(--panel-bg);
+  overflow-y: auto;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--header-text-color);
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.loading-message {
+  color: #777;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.folder-tree {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

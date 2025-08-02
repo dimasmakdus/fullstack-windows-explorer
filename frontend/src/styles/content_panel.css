@@ -1,0 +1,189 @@
+
+.right-panel {
+  flex: 3;
+  border-right: none;
+  padding: 10px;
+  background-color: var(--panel-bg);
+  overflow-y: auto;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--header-text-color);
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.panel-subtitle {
+  font-weight: normal;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.empty-message {
+  color: #777;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.subfolder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subfolder-item-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.1s, border-color 0.1s;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+
+.subfolder-item-grid:hover {
+  background-color: var(--hover-bg);
+  border-color: #a0d8ff;
+}
+
+.subfolder-item-grid:active {
+  background-color: var(--select-bg);
+  border-color: #66b5ff;
+}
+
+.subfolder-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.subfolder-name {
+  font-size: 0.9em;
+  color: var(--text-color);
+  word-break: break-all;
+}
+
+.search-path-hint {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 4px;
+  word-break: break-all;
+}
+
+/* Delete Button Styles */
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 2px 5px;
+  margin-left: 5px;
+  opacity: 0.6;
+  transition: opacity 0.2s, color 0.2s;
+  line-height: 1;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 0.8em;
+  padding: 3px 6px;
+  opacity: 0.4;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.subfolder-item-grid:hover .delete-button {
+  opacity: 1;
+  color: #dc3545;
+}
+
+.delete-button:hover {
+  opacity: 1;
+  color: #c82333;
+}
+
+.rename-input-grid {
+  width: 90%;
+  border: 1px solid var(--accent-color);
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.rename-input-grid:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.2);
+}
+
+.subfolder-actions {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  position: absolute; /* Untuk menempatkan di bawah ikon */
+  bottom: 5px;
+  width: 100%;
+}
+
+.action-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 2px 5px;
+  opacity: 0.6;
+  transition: opacity 0.2s, color 0.2s;
+  line-height: 1;
+}
+
+.subfolder-item-grid:hover .action-button {
+  opacity: 1;
+}
+
+.action-button:hover {
+  opacity: 1;
+}
+
+.rename-button-grid {
+  font-size: 0.9em;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #ddd;
+}
+
+.rename-button-grid:hover {
+  color: #0078d7;
+  border-color: #0078d7;
+}
+
+.delete-button-grid {
+  font-size: 0.9em;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #ddd;
+}
+
+.delete-button-grid:hover {
+  color: #dc3545;
+  border-color: #dc3545;
+}
