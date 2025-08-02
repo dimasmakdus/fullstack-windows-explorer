@@ -8,7 +8,7 @@ Proyek ini menyediakan serangkaian endpoint yang memungkinkan klien untuk berint
 
 * **Manajemen Direktori**: Membuat, mengubah nama, dan menghapus direktori.
 
-* **Navigasi**: Mendapatkan daftar isi dari sebuah direktori (file dan sub-direktori).
+* **Navigasi**: Mendapatkan daftar isi dari sebuah direktori (file dan sub-direktori) menggunakan fungsi rekursif.
 
 * **Pencarian**: Mendukung pencarian file dan direktori berdasarkan nama.
 
