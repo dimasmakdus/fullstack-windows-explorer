@@ -82,3 +82,8 @@ Perintah ini akan menjalankan skrip migrasi yang telah Anda buat.
 ## 📄 Lisensi
 
 Proyek ini dilisensikan di bawah [Lisensi MIT](https://opensource.org/licenses/MIT).
+
+## Kontak
+
+* **Nama:** Dimas Mohammad Makdus (GitHub, LinkedIn, Twitter)
+* **Email:** dimasmakdus@gmail.com
